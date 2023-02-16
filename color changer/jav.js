@@ -1,6 +1,6 @@
 var div = document.getElementById("back");
 function getRandomColor() {
-    var letters = '0123456789ABCDEF';
+    var letters = 'ABCDEF0123456789';
     var color = '#';
     for (var i = 0; i < 6; i++ ) {
         color += letters[Math.floor(Math.random() * 16)];
